@@ -5,7 +5,7 @@ import { useFilter } from "./useHooks/useFilter";
 import TaskLists from "./components/TaskLists";
 import SearchBar from "./components/SearchBar";
 import { Button } from "@/components/ui/button";
-import { Filter, Plus } from "lucide-react";
+import { Plus } from "lucide-react";
 import FilterButtons from "./components/FilterButtons";
 
 
