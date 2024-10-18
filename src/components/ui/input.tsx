@@ -1,7 +1,7 @@
 import * as React from "react"
-
 import { cn } from "@/lib/utils"
 
+// Elimina la interfaz vacía
 const Input = React.forwardRef<HTMLInputElement, React.InputHTMLAttributes<HTMLInputElement>>(
   ({ className, type, ...props }, ref) => {
     return (
@@ -17,6 +17,8 @@ const Input = React.forwardRef<HTMLInputElement, React.InputHTMLAttributes<HTMLI
     )
   }
 )
+
 Input.displayName = "Input"
 
 export { Input }
+
